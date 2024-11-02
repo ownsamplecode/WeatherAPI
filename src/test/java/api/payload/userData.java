@@ -1,8 +1,8 @@
 package api.payload;
 
 public class userData {
-	String in,regioncode;
-	//public static String in2="asi";
+	String in,regioncode,LocationKey;
+	
 
 	public void setIn(String in) {
 		this.in = in;
@@ -23,7 +23,14 @@ public class userData {
 		return regioncode;
 	}
 
+	public void setLocationKey(String LocationKey) {
+		this.LocationKey = LocationKey;
+		
+	}
 	
+	public String getLocationKey() {
+		return LocationKey;
+	}
 	
 
 	
