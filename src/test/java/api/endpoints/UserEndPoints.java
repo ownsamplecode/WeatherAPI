@@ -56,8 +56,8 @@ public class UserEndPoints {
 		Response response=given()
 				
 				.queryParam("apikey", API_KEY)
-				.pathParam("LocationKey", Location)
-				.log().all()
+				//.pathParam("LocationKey", Location)
+				//.log().all()
 				.when()
 				.get(Routes.get_OneDay_weather);
 		return response;

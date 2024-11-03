@@ -14,7 +14,7 @@ public class Routes {
 		
 		// Forecast API
 		
-		public static String get_OneDay_weather=base_url+ base_url+"/daily/1day/{locationKey}";
+		public static String get_OneDay_weather=base_url+ base_url+"/daily/1day/204842";
 		// For Mumbai =204842
 		//
 		

@@ -50,12 +50,10 @@ public class weatherTest {
 	public void testOneDayWeather()
 	{
 	
-		Response response=UserEndPoints.getCountry(data.getLocationKey());
+		Response response=UserEndPoints.getOneDayWeather(data.getLocationKey());
 		org.testng.Assert.assertEquals(response.getStatusCode(),200);
 		//System.out.println("Response Body: " + response.asString());
-		//response.then().log().all();
-		
-		
+		//response.then().log().all();		
 		
 		System.out.println("Status Code: " + response.getStatusCode());
 	    System.out.println("Content-Type: " + response.getHeader("Content-Type"));
