@@ -16,7 +16,7 @@ public class Routes {
 		
 		public static String get_OneDay_weather=base_url+ base_url+"/daily/1day/204842";
 		// For Mumbai =204842
-		//
+		
 		
 }
 	

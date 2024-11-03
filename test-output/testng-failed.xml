@@ -5,10 +5,8 @@
     <classes>
       <class name="api.test.weatherTest">
         <methods>
-          <include name="testCountry"/>
           <include name="setData"/>
           <include name="testOneDayWeather"/>
-          <include name="testReadAdmin"/>
         </methods>
       </class> <!-- api.test.weatherTest -->
     </classes>
